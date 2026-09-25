@@ -4,6 +4,13 @@
 
 ## [Unreleased]
 
+## [0.1.1]
+
+### Fixed
+
+- Review/star CTA now links to this plugin's own Marketplace
+  reviews page instead of the vendor's generic plugin list.
+
 ## [0.1.0]
 
 ### Added
@@ -14,5 +21,6 @@
   directly -- a confirmed, proven-exploited `EI_EXPOSE_REP` shape
   (CWE-374/375), not just a risky getter.
 
-[Unreleased]: https://github.com/GapHunterLabs/mutable-state-leak-companion/compare/0.1.0...HEAD
+[Unreleased]: https://github.com/GapHunterLabs/mutable-state-leak-companion/compare/0.1.1...HEAD
+[0.1.1]: https://github.com/GapHunterLabs/mutable-state-leak-companion/compare/0.1.0...0.1.1
 [0.1.0]: https://github.com/GapHunterLabs/mutable-state-leak-companion/commits/0.1.0
