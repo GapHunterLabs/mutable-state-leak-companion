@@ -1,0 +1,10 @@
+<html>
+<body>
+Reports a mutation (<code>add</code>, <code>put</code>, <code>remove</code>, <code>clear</code>, or an array
+element write) of a value returned by a getter that hands back one of its object's own mutable fields
+(<code>List</code>, <code>Map</code>, <code>Set</code> or array) directly.
+<!-- tooltip end -->
+<p>The caller is changing the other object's internal state from outside (CWE-374, CWE-375). The getter may be in
+another class or file. Returning an unmodifiable view or a copy prevents it.</p>
+</body>
+</html>
